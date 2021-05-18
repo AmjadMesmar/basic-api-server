@@ -12,11 +12,16 @@ const clothesRoutes = require ('./routes/clothes.js');
 app.use(express.json());//post, put, patch
 app.use(morgan('dev'));
 app.use(cors());
+app.use('/',homeHandler);
 app.use('/api/v1/food', foodRoutes);
 app.use('/api/v1/clothes', clothesRoutes);
 app.use('*', notFoundHndler);
 app.use(errorHandler);
 
+
+function homeHandler(req,res){
+res.send('Welcome to the server!');
+}
 module.exports = {
     server: app,
     start: (port) => {
