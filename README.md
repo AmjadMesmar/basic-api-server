@@ -15,9 +15,13 @@ Amjad Mesmar
 
 ## Links
 
-*(Submission Pull Request)[https://github.com/AmjadMesmar/api-server/pull/1]
-* (Deployed App)[https://souls-api-server.herokuapp.com/]
-* (Action Report)[https://github.com/AmjadMesmar/api-server/actions]
+- [Repository](https://github.com/AmjadMesmar/basic-api-server)
+
+- [Submission Pull Request](https://github.com/AmjadMesmar/basic-api-server/pull/2)
+
+- [Deployed App](https://souls-basic-api-server.herokuapp.com/)
+
+- [Action Report](https://github.com/AmjadMesmar/basic-api-server/actions)
 
 <hr>
 
@@ -69,6 +73,7 @@ mongod --dbpath=/Users/path/to/data/db
     }
 ]
 ```
+
 <br>
 
 ### * `/api/v1/food`
@@ -85,6 +90,7 @@ mongod --dbpath=/Users/path/to/data/db
         "__v": 0
     }
 ```
+
 <br>
 
 ### * `/api/v1/food/id`
@@ -103,6 +109,7 @@ mongod --dbpath=/Users/path/to/data/db
         "__v": 0
     }
 ```
+
 <br>
 
 ### * `/api/v1/food/id`
@@ -119,6 +126,7 @@ mongod --dbpath=/Users/path/to/data/db
         "__v": 0
     }
 ```
+
 <br>
 
 ### * `/api/v1/food`
@@ -241,8 +249,8 @@ mongod --dbpath=/Users/path/to/data/db
 
 4. Test:
 
-* There's 2 test files . logger.test.js and server.test.js
-* In terminal run :
+- There's 2 test files . logger.test.js and server.test.js
+- In terminal run :
 
 ```
 
