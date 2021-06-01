@@ -14,7 +14,7 @@ app.use(morgan('dev'));
 app.use(cors());
 app.use('/api/v1/food', foodRoutes);
 app.use('/api/v1/clothes', clothesRoutes);
-// app.use('/',homeHandler);
+app.use('/',homeHandler);
 app.use('*', notFoundHndler);
 app.use(errorHandler);
 
