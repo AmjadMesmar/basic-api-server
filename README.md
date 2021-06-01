@@ -17,7 +17,7 @@ Amjad Mesmar
 
 - [Repository](https://github.com/AmjadMesmar/basic-api-server)
 
-- [Submission Pull Request](https://github.com/AmjadMesmar/basic-api-server/pull/2)
+- [Submission Pull Request](https://github.com/AmjadMesmar/basic-api-server/pull/3)
 
 - [Deployed App](https://souls-basic-api-server.herokuapp.com/)
 
